@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a,i, .logo{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+
+
+
+
+/* comienza mi header */
+header{
+    background-color: #002f6d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+header h2{
+    margin-left: 30px;
+}
+nav a{
+    margin-left: 25px;
+
+}
+
+header .header-iconos{
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+.hero{
+    background-image: url(../img/fondo.jpg);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.hero .hero-titulo{
+    color: white;
+}
+.comprometido{
+    background-color: chocolate;
+}
+
+.galeria-imagenes{
+    background-color: cornflowerblue;
+}
+.responsabilidad{
+    background-color: darkslategrey;
+}
