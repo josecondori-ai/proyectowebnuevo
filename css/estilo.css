@@ -40,10 +40,19 @@ header .header-iconos{
 
 
 
-
+/* 
+px 50/80
+em rem=>> margin, padding, font size
+porcetajes==> %
+*/
 
 .hero{
     background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -53,7 +62,27 @@ header .header-iconos{
 
 .hero .hero-titulo{
     color: white;
+    /* margin-left: 50px; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: aquamarine;
 }
+/* seccion  de logos */
+
+.textoparaHero{
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.contenedorImagenes{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
 .comprometido{
     background-color: chocolate;
 }
