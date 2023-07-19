@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/jvo0mnv.css");
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@
 a,i, .logo{
     color: white;
     text-decoration: none;
-    text-transform: uppercase;   
+    text-transform: uppercase;  
+    
 }
 
 
@@ -20,6 +22,8 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    position: fixed;
+    width: 100%;
 }
 
 header h2{
@@ -67,7 +71,9 @@ porcetajes==> %
     display: flex;
     justify-content: center;
     width: 50%;
-    background-color: aquamarine;
+    font-size: 60px;
+    line-height: normal;
+    word-spacing: normal;
 }
 /* seccion  de logos */
 
@@ -82,13 +88,38 @@ porcetajes==> %
     
     margin-top: 50px;
 }
-
+/* comprometido */
 .comprometido{
-    background-color: chocolate;
+    
+    padding: 90px 0;
+    color: #002f6d;
+    width: 50%;
+   margin: 0 auto;
+}
+.comprometido h2{
+    
+    margin-bottom: 30px;
+}
+.comprometido hr{
+    width: 5%;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-bottom: 30px;
 }
 
 .galeria-imagenes{
-    background-color: cornflowerblue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenedor-galeria-imagenytexto{
+    display: flex;
+    justify-content:space-around;
+}
+
+.imagen-titulo-texto{
+    display: flex;
+    align-items: center;
 }
 .responsabilidad{
     background-color: darkslategrey;
